@@ -1,0 +1,310 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	color: #000;
+	font: normal 12px/2.0em Sans-Serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #000;
+}
+
+.halaman {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background: #eee;
+}
+
+.header,
+.footer,
+.menu-atas,
+.halaman1,
+.halaman1 .isi,
+.halaman1 .menu {
+	margin: 0;
+	padding: 0;
+}
+
+.a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #0C3;
+}
+
+/* Logo */
+.logo {
+	padding: 10px;
+	width: auto;
+	float: left;
+}
+
+.logo h1 a,
+h1 a:hover {
+	color: #0C3;
+	text-decoration: none;
+}
+
+.logo h1 span {
+	color: #F2F200;
+}
+
+/* Header */
+.header {
+	background: #eee;
+}
+
+.isi-header {
+	margin: 0 auto;
+	padding: 10px;
+	width: 100%;
+	max-width: 1200px;
+	background: #fff;
+}
+
+/* Judul */
+.judul {
+	background: #eee;
+	padding: 0;
+}
+
+.isi-judul {
+	margin: auto;
+	padding: 5px;
+	width: 100%;
+	max-width: 1200px;
+	background: #066aab;
+}
+
+.isi-judul h1 {
+	color: #000;
+	font-size: 32px;
+}
+
+/* Menu */
+.menu-atas {
+	margin: 0 auto;
+	padding: 0;
+	height: 37px;
+	float: right;
+}
+
+.menu-atas ul {
+	list-style: none;
+	padding: 0;
+	height: 37px;
+	float: left;
+}
+
+.menu-atas ul li {
+	margin: 0;
+	padding: 0 0 0 8px;
+	float: left;
+}
+
+.menu-atas ul li a {
+	display: block;
+	margin: 0;
+	padding: 8px 20px;
+	color: #000;
+	text-decoration: none;
+}
+
+.menu-atas ul li.active a,
+.menu-atas ul li a:hover {
+	color: #0C3;
+}
+
+/* Halaman */
+.isi-halaman {
+	margin: 0 auto;
+	padding: 10px;
+	width: 100%;
+	max-width: 1200px;
+	background: #fff;
+}
+
+.artikel {
+	width: 100%;
+	max-width: 710px;
+}
+
+.halaman1 .isi {
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 100%;
+	max-width: 760px;
+}
+
+.halaman1 .isi .artikel {
+	margin: 0 0 24px;
+	padding: 0 20px 0 15px;
+}
+
+.halaman1 .menu {
+	padding: 0;
+	float: left;
+	width: 100%;
+	max-width: 200px;
+}
+
+.halaman1 .menu .menu1 {
+	margin: 0 0 12px;
+	padding: 8px 8px 8px 13px;
+	line-height: 1.4em;
+}
+
+.halaman1 .menu .menu1 h3 a {
+	text-decoration: none;
+}
+
+.halaman1 .menu .menu1 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #959595;
+}
+
+.halaman1 .menu .menu1 ul li {
+	margin: 0;
+}
+
+.halaman1 .menu .menu1 ul li {
+	padding: 4px 0;
+	width: 185px;
+}
+
+.halaman1 .menu .menu1 ul li a {
+	color: #000;
+	text-decoration: none;
+	margin-left: -16px;
+	padding: 4px 8px 4px 16px;
+}
+
+.halaman1 .menu .menu1 ul li a:hover {
+	color: #0C3;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Tabel */
+.tabel {
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.td1,
+.th1 {
+	border: 1px solid transparent;
+	height: 30px;
+	padding: 5px;
+}
+
+.th1 {
+	background: #DFDFDF;
+	font-weight: bold;
+}
+
+.td2 {
+	background: white;
+}
+
+.tr1:hover {
+	background: #F1F1F1;
+}
+
+.td2 .th2 {
+	background: #fff;
+}
+
+/* Form */
+.kotak {
+	width: 100%;
+	padding: 6px 25px;
+	margin: 5px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.kotak:hover {
+	border: 1px solid #0C3;
+}
+
+.filset {
+	border: 2px solid green;
+	padding: 10px;
+}
+
+/* Footer1 */
+.footer1 {
+	background: #eee;
+	color: #000;
+}
+
+.isi-footer1 {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	padding: 10px;
+	background: #066aab;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.footer1 .column {
+	margin: 0;
+	text-align: justify;
+	float: left;
+	width: 250px;
+	padding: 0 24px;
+}
+
+/* Footer */
+.footer {
+	background: #eee;
+}
+
+.isi-footer {
+	margin: auto;
+	text-align: center;
+	padding: 12px;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.footer a {
+	color: #000;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #DD0;
+	text-decoration: none;
+}
+
+/* Hapus */
+.hapus {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-size: 0px;
+	line-height: 0px;
+}
